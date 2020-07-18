@@ -1,4 +1,4 @@
-varMaleNames=[
+var maleNames=[
     "Kwasi",
     "Kwadwo",
     "Kwabena",
@@ -7,3 +7,13 @@ varMaleNames=[
     "Kofi",
     "Kwame"
 ];
+var femaleNames=[
+    "Akosua",
+    "Adwoa",
+    "Abenaa",
+    "Akua",
+    "Yaa",
+    "Afua",
+    "Ama",
+];
+var 
