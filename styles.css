@@ -4,8 +4,11 @@ body{
     background-size: cover;
     overflow-x: hidden;
 }
-h1{
+.container h1{
     font-size: 25px;
     font-weight: bold;
-    justify-self: center;wacha nizipush kwanza
+    justify-self: center;
+}
+.container p{
+    font-size: 16px;
 }
