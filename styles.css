@@ -3,12 +3,14 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     overflow-x: hidden;
+    opacity: 150%;
 }
 .container h1{
-    font-size: 25px;
-    font-weight: bold;
+    font-size: 35px;
+    font-weight: bolder;
     justify-self: center;
 }
 .container p{
     font-size: 16px;
+    font-weight: bold;
 }
