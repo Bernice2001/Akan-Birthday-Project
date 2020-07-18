@@ -9,6 +9,7 @@ body{
     font-size: 35px;
     font-weight: bolder;
     justify-self: center;
+    font-style: normal;
 }
 .container p{
     font-size: 16px;
