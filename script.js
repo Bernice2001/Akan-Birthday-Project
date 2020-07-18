@@ -1,0 +1,9 @@
+varMaleNames=[
+    "Kwasi",
+    "Kwadwo",
+    "Kwabena",
+    "Kwaku",
+    "Yaw",
+    "Kofi",
+    "Kwame"
+];
