@@ -14,6 +14,7 @@ body{
 .container p{
     font-size: 16px;
     font-weight: bold;
+    font-style: normal;
 }
 li{
     font-weight: bold;
