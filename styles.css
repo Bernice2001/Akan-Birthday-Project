@@ -1,5 +1,5 @@
 body{
-    background-image: url(images/download\ \(1\).jpeg2);
+    background-image: url(images/download.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     overflow-x: hidden;
@@ -21,3 +21,11 @@ li{
     color: black;
 
 }
+#rights{
+    margin-left: 370px;
+    margin-top: 300px;
+    color: black;
+    font-size: 14px;   
+}
+      
+      
