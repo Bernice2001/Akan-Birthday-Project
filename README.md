@@ -33,6 +33,3 @@ This is a Personal Project that i have created a website that on submission your
 [Here is a link to my git hub page](https://github.com/Bernice2001/Akan-Birthday-Project)
 ******
 
-### License
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-copyright(c)BERNICE MAINA @2020
