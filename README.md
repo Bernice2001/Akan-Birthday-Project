@@ -29,7 +29,7 @@ This is a Personal Project that i have created a website that on submission your
  -The submit button is the part where your input or your details have been feed to the application and then it display or output your Akan name and the day your were born in case you forget to choose the gender or the correct date an alert message will appear to inform you to input the correct details.
  ******
  
-## Project link
-[Here is a link to my git hub page](https://github.com/Bernice2001/Akan-Birthday-Project)
-******
+## Project links
+[This is a link for my github page](https://github.com/Bernice2001/Akan-Birthday-Project)
 
+[Click this link for my project](https://bernice2001.github.io/Akan-Birthday-Project/)
