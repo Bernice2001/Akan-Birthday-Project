@@ -1,114 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
-<meta name="Description" content="Enter your description here"/>
-<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
-<link rel="stylesheet" href="styles.css" type="text/css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
-<link rel="stylesheet" href="assets/css/style.css">
-<title>GHANA-AKAN-BIRTHDAYS</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>GHANA-AKAN-BIRTHDAYS</title>
 </head>
 
 <body>
-   <div class="content">
-       <div class="container">
-           <div id="header">
-           
-           </div>
+    <div class="content">
+        <div class="container">
+            <div id="header">
+
+            </div>
             <h1>AKAN NAMING SYSTEM.</h1>
-           <p>This is a website where you get your new born a name according to 
-             your gender and day that you were born.</p> 
+            <p>This is a website where you get your new born a name according to
+                your gender and day that you were born.</p>
 
 
 
-             <p>In this Akan naming system if you are female you will be named as follows:</p>       
-              <ul>
-                  <li> Sunday: Akosua</li>
+            <p>In this Akan naming system if you are female you will be named as follows:</p>
+            <ul>
+                <li> Sunday: Akosua</li>
 
-                   <li> Monday: Adwoa</li>
-                    
-                    <li> Tuesday: Abenaa</li>
-                    
-                     <li> Wednesday: Akua</li>
-                    
-                       <li> Thursday:  Yaa</li>
+                <li> Monday: Adwoa</li>
 
-                        <li> Friday: Afua</li>
+                <li> Tuesday: Abenaa</li>
 
-                         <li> Saturday: Ama</li>
-              </ul>
-            
+                <li> Wednesday: Akua</li>
 
-             <p>In this Akan naming system if you were male you will be named as folows:</p>
-             <ul>
+                <li> Thursday: Yaa</li>
+
+                <li> Friday: Afua</li>
+
+                <li> Saturday: Ama</li>
+            </ul>
+
+
+            <p>In this Akan naming system if you were male you will be named as folows:</p>
+            <ul>
                 <li> Sunday: Kwasi
 
                 <li> Monday: Kwadwo
-                    
-                    <li>  Tuesday: Kwabena
-                    
-                        <li>Wednesday: Kwaku
-                    
-                            <li>Thursday:  Yaw
-                    
-                                <li> Friday: Kofi
-                    
-                                  <li>Saturday: Kwame
-                             
-             </ul>
+
+                <li> Tuesday: Kwabena
+
+                <li>Wednesday: Kwaku
+
+                <li>Thursday: Yaw
+
+                <li> Friday: Kofi
+
+                <li>Saturday: Kwame
+
+            </ul>
 
 
-            
-             </div>
-             
-            
-             
-           </div>
-       </div>
-   </div>
-   <div class="container">
-    <form>
-        <div class="form-group">
-            <label for="birthday">Date:</label>
-            <input type="date" name="date" class="form-control" placeholder="Enter Your BirthYear" id="date">
+
         </div>
 
-        <div class="form-group">
-            <select class="form-control mb-2" id="gender">
-                <label for="birthday" class="text-danger">Gender:</label>
-                <option value="male" class="form-control" id="male">Male</option>
-                <option value="female" class="form-control" id="female">Female</option>
-            </select>
-        </div>
 
-        <button type="submit" id="btn btn-default" onclick="additionSubmit()">Submit</button>
-        <div class="text-center text-danger" id="result"></div>
-           <br>
-           <br>
-        <button type="clear input"id="btn btn-info" onClick="clearInput()">clear input</button>
-    </form>
-</div>
-<script src="js/bootstrap.min.js"></script>
-<script src="script.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<footer>
-    <p id="rights"> copyright(c)BERNICE MAINA @2020</p>
-  </footer>
+
+    </div>
+    </div>
+    </div>
+    <div class="container">
+        <form>
+            <div class="form-group">
+                <label for="birthday">Date:</label>
+                <input type="date" name="date" class="form-control" placeholder="Enter Your BirthYear" id="date">
+            </div>
+
+            <div class="form-group">
+                <select class="form-control mb-2" id="gender">
+                    <label for="birthday" class="text-danger">Gender:</label>
+                    <option value="male" class="form-control" id="male">Male</option>
+                    <option value="female" class="form-control" id="female">Female</option>
+                </select>
+            </div>
+
+            <button type="submit" id="btn btn-default" onclick="additionSubmit()">Submit</button>
+            <div class="text-center text-danger" id="result"></div>
+            <br>
+            <br>
+            <button type="clear input" id="btn btn-info" onClick="clearInput()">clear input</button>
+        </form>
+    </div>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <footer>
+        <p id="rights"> copyright(c)BERNICE MAINA @2020</p>
+    </footer>
 </body>
+
 </html>
-
-
-
-
-
-
-
-
-
-
-
